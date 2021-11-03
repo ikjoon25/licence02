@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>캐라스 호텔</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.12.3.js"></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div id="skip">
+        <ul>
+            <li><a href="#slide">슬라이드 바로가기</a></li>
+            <li><a href="#header">헤더 바로가기</a></li>
+            <li><a href="#content">내용 바로가기</a></li>
+            <li><a href="#shortcut">쇼컷 바로가기</a></li>
+            <li><a href="#footer">풋터 바로가기</a></li>
+        </ul>
+    </div>
+    <div id="wrap">
+        <main id="slide">
+            <ul>
+                <li><a href="#"><img src="./img/slide01.jpg" alt="메인 슬라이드1"></a></li>
+                <li><a href="#"><img src="./img/slide02.jpg" alt="메인 슬라이드2"></a></li>
+                <li><a href="#"><img src="./img/slide03.jpg" alt="메인 슬라이드3"></a></li>
+            </ul>
+        </main>
+        <header id="header" class="header">
+            <h1><a href="#"><img src="./img/logo.png" alt="logo"></a></h1>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#">호텔소개</a></li>
+                    <li><a href="#">예약안내</a>
+                        <ul>
+                            <li><a href="#">객실정보</a></li>
+                            <li><a href="#">예약</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">주변관광정보</a>
+                        <ul>
+                            <li><a href="#">차이나타운</a></li>
+                            <li><a href="#">월미도</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section id="content">
+            <div class="notice">
+                <h2>공지사항</h2>
+                <ul>
+                    <li><a href="#">연꽃과 음식 이야기</a><span>2020.03.14</span></li>
+                    <li><a href="#">연꽃마을축제에서 즐기는 풍경</a><span>2020.03.14</span></li>
+                    <li><a href="#">연꽃으로 장식품 만들기</a><span>2020.03.14</span></li>
+                    <li><a href="#">건강에 좋은 음식</a><span>2020.03.14</span></li>
+                </ul>
+            </div>
+            <div class="banner">
+                <h2 class="ir-so">갤러리</h2>
+                <div class="banner-box">
+                    <ul>
+                        <li class="popup"><a href="javascript:" title="팝업 바로가기"><img src="./img/banner1.jpg" alt="banner1"></a></li>
+                        <li class="popup"><a href="javascript:" title="팝업 바로가기"><img src="./img/banner2.jpg" alt="banner2"></a></li>
+                        <li class="popup"><a href="javascript:" title="팝업 바로가기"><img src="./img/banner3.jpg" alt="banner3"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <aside id="shortcut">
+            <div class="shortcut01">
+                <a href="#">
+                    <img src="./img/icon.png" alt="바로가기1">
+                    <span class="text">룸서비스 바로가기</span>
+                </a>
+            </div>
+            <div class="shortcut02">
+                <a href="#">
+                    <img src="./img/icon2.png" alt="바로가기2">
+                    <span class="text">예약 바로가기</span>
+                </a>
+            </div>
+            <div class="shortcut03">
+                <a href="#">
+                    <img src="./img/icon3.png" alt="바로가기3">
+                    <span class="text">리무진 바로가기</span>
+                </a>
+            </div>
+        </aside>
+        <footer id="footer">
+            <address>COPYRIGHTⓒ by WEBDESIGN. ALL RIGHTS RESERVED</address>
+        </footer>
+    </div>
+    <div class="pop">
+        <div class="pop-wrap">
+            <h2>공지 사항</h2>
+            <p>연꽃과 음식 이야기 관련 책자는 안내 사무실에서 받아가세요.</p>
+            <button type="button" class="btn">닫기</button>
+        </div>
+    </div>
+</body>
+</html>
